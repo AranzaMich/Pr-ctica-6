@@ -1,0 +1,102 @@
+/* Imagen fondo*/
+body{
+    background-image: url(../images/art-background4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Primer contenedor*/
+.container{
+  background-color: white;
+  position: absolute;
+  padding: 0.5em 4e 3em 0.5em;
+  left: 10em;
+}
+
+.container h1{
+  font-family: "Six Caps", "Candara";
+  font-size: 3em;
+  margin-left: 0.29em;
+  margin-right: 1.5em;
+  margin-top: 0.5em;
+
+}
+
+.container p{
+  font-family: "Candara";
+  font-weight: bold;
+  font-size: 0.8em;
+  margin-left: 1.1em;
+  margin-bottom: 2.5em;
+}
+
+/*Segundo contenedor*/
+section{
+  left: 10em;
+  position: absolute;
+  top: 15em;
+  width: 30em;
+}
+
+section h2{
+  font-family: "Candara";
+  font-size: 1.6em;
+  padding: 0.5em;
+  background: rgba(255,255,255,0.7);
+}
+
+/*Segundo contenedor división 1*/
+#div1{
+  background: rgba(255,255,255,0.3);
+  padding: 2em;
+}
+
+section div h3{
+  font-family: "Cambria";
+  font-size: 1.5em;
+  margin-left: -1.2em;
+  margin-top: -0.3em;
+  padding: 0.5em;
+}
+
+section div p{
+  background: rgba(0,0,0,0.4);
+  margin-left: -0.7em;
+  color: white;
+  font-family: "Cambria";
+  font-weight: bold;
+  padding: 1em;
+  font-size: 1.25em;
+}
+
+/*Segundo contenedor división 2*/
+#div2{
+  background: rgba(255,255,255,0.9);
+  font-size: 1em;
+  padding: 2em;
+}
+
+#div2 a{
+  font-family: "Cambria";
+  font-weight: bold;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 0.25em;
+  border-bottom: 1px dotted;
+}
+
+#div2 ul{
+  list-style: none;
+  padding-left: 1.5em;
+  display: inline-block;
+}
+
+#div2 ul li{
+  display: inline;
+}
+
+#div2 ul li img{
+  height: 1rem;
+  width: 1rem;
+}
